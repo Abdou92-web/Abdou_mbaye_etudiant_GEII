@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Abdou Mbaye | Étudiant GEII</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: 'Poppins', sans-serif; background-color: #f4f7f9; color: #333; line-height: 1.6; }
+    header {
+  background: linear-gradient(to right, #1abc9c, #16a085);
+  color: white;
+  padding: 50px 20px;
+  text-align: center;
+  position: relative;; overflow: hidden; }
+    header::after { content: ""; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-image: url('https://www.transparenttextures.com/patterns/cubes.png'); opacity: 0.1; }
+    header img { border-radius: 50%;
+  width: 220px; /* taille augmentée */
+  margin-top: 20px;
+  border: 5px solid white;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2); }
+    nav { background: #2c3e50; padding: 15px 20px; text-align: center; position: sticky; top: 0; z-index: 10; box-shadow: 0 2px 6px rgba(0,0,0,0.1); }
+    nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: 600; transition: color 0.3s ease; }
+    nav a:hover { color: #1abc9c; }
+    section { padding: 60px 20px; max-width: 1000px; margin: auto; background: white; margin-top: 30px; border-radius: 12px; box-shadow: 0 0 25px rgba(0,0,0,0.07); animation: fadeIn 1s ease-in-out; }
+    h2 { color: #16a085; margin-bottom: 20px; border-bottom: 2px solid #e0e0e0; padding-bottom: 10px; font-size: 28px; }
+    ul { list-style-type: disc; padding-left: 25px; }
+    footer { text-align: center; background-color: #1e2a38; color: white; padding: 30px; margin-top: 50px; font-size: 14px; }
+    .cv-link { background: #16a085; color: white; padding: 12px 28px; border-radius: 6px; display: inline-block; margin-top: 20px; text-decoration: none; font-weight: bold; transition: background 0.3s ease; }
+    .cv-link:hover { background: #138d75; }
+    .quote { background: #ecf0f1; padding: 25px; border-left: 6px solid #16a085; margin-top: 30px; font-style: italic; font-size: 18px; }
+    @keyframes fadeIn { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="photo me.jpg" alt="Photo de Abdou Mbaye">
+    <h1 style="font-size: 42px; z-index: 1; position: relative;">Abdou Mbaye</h1>
+    <p style="font-size: 20px; z-index: 1; position: relative;">Future force de l’industrie 4.0, je suis un étudiant en Génie Électrique et Informatique Industrielle animé par l’innovation, les systèmes connectés et les défis technologiques de demain.</p>
+  </header>
+
+  <nav>
+    <a href="#about">À propos</a>
+    <a href="#skills">Compétences</a>
+    <a href="#projects">Projets</a>
+    <a href="#cv">CV</a>
+    <a href="#news">Actualité</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>À propos de moi</h2>
+    <p>Je m’appelle Abdou Mbaye, étudiant en Génie Électrique et Informatique Industrielle (GEII). Originaire du Sénégal, je poursuis actuellement mes études en France avec la volonté de contribuer à des projets technologiques concrets et utiles.</p>
+
+    <p>Mon parcours m’a permis d’acquérir des compétences solides en électronique, automatisme, et informatique industrielle, tout en développant un réel intérêt pour les systèmes intelligents et les environnements techniques complexes.</p>
+
+    <p>Je suis quelqu’un de curieux, rigoureux et toujours en quête de nouveaux défis. J’aime comprendre comment les systèmes fonctionnent, anticiper leurs besoins et participer activement à leur amélioration.</p>
+
+     <p>À travers ce site, je partage mon parcours, mes projets et mon objectif professionnel : m’investir pleinement dans l’innovation technologique et l’industrie de demain.</p>
+  </section>
+
+  <section id="skills">
+  <h2>🛠️ Compétences Techniques</h2>
+
+  <h3>🔌 Électronique</h3>
+  <ul>
+    <li>Conception et simulation de circuits électroniques (analogiques & numériques)</li>
+    <li>Maîtrise de l’oscilloscope, du multimètre et de la validation de schémas réels</li>
+    <li>Réalisation de cartes électroniques (concevoir le schema sur KiCad, faire le routage et imprimer la carte)</li>
+  </ul>
+
+  <h3>⚡ Énergie & Électrotechnique</h3>
+  <ul>
+    <li>Compréhension du fonctionnement des moteurs à courant continu, alternateurs et transformateurs</li>
+    <li>Câblage de la partie puissance et commande dans un environnement sécurisé</li>
+  </ul>
+
+  <h3>🤖 Automatisme & Informatique Industrielle</h3>
+  <ul>
+    <li>Programmation d’API (Automates Programmables Industriels) avec TIA Portal</li>
+    <li>Programmation de microcontrôleurs en C / Python</li>
+    <li>Analyse fonctionnelle (GRAFCET, chaînes d’énergie & d’information)</li>
+  </ul>
+
+  <h3>📏 Métrologie </h3>
+  <ul>
+    <li>Réalisation de mesures physiques précises avec analyse des incertitudes</li>
+    <li>Étalonnage et validation de mesure selon les standards</li>
+  </ul>
+
+  <h3>📡 Capteurs & instrumentation </h3>
+  <ul>
+    <li>Implémentation de capteurs industriels </li>
+    <li>Acquisition et traitement de signaux (filtrage, interprétation, visualisation)</li>
+  </ul>
+
+  <h3>💻 Logiciels Techniques</h3>
+  <ul>
+    <li><strong>MPLAB</strong> – Microcontrôleurs PIC</li>
+    <li><strong>TIA Portal</strong> – Automates Siemens</li>
+    <li><strong>QElectroTech</strong> – Schémas électriques</li>
+    <li><strong>Vivado</strong> – Logique FPGA</li>
+    <li><strong>KiCad</strong> – Conception de circuits imprimés</li>
+    <li><strong>Excel</strong> – Analyse et organisation de données</li>
+  </ul>
+
+  <h3>🌍 Langues</h3>
+  <ul>
+    <li><strong>Anglais technique :</strong> niveau B1 – lecture de documentation, écriture simple</li>
+    <li><strong>Arabe :</strong> niveau B2 – compréhension écrite et orale fluide</li>
+  </ul>
+</section>
+
+  <section id="projects">
+  <h2>📂 expériences professionnelles & Projets</h2>
+  <div style="display: flex; flex-wrap: wrap; gap: 30px; justify-content: center;">
+    <div style="flex: 1 1 300px; background: #f9f9f9; border-radius: 10px; padding: 20px; box-shadow: 0 0 10px rgba(0,0,0,0.05);">
+      <h3>Volet roulant automatique</h3>
+      <p>Conception d’un système intelligent contrôlant un volet selon la luminosité. Utilisation de capteurs et automate programmable.</p>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/VFG6esrp0hE?si=TzY2zvVAjjzwXYxd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    <div style="flex: 1 1 300px; background: #f9f9f9; border-radius: 10px; padding: 20px; box-shadow: 0 0 10px rgba(0,0,0,0.05);">
+      <h3>Prototye d'affiche de texe</h3>
+  <p> Réalisation d'un rototype d’affichage de texte sur plusieurs afficheurs 7 segments commandés par microcontrôleur.</p>
+   <img src="afficheur.jpg" alt="Analyse de capteurs" style="width: 100%; border-radius: 8px; margin-top: 10px;">
+  <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin-top: 10px;">
+    
+  </div>
+</div>
+    <div style="flex: 1 1 300px; background: #f9f9f9; border-radius: 10px; padding: 20px; box-shadow: 0 0 10px rgba(0,0,0,0.05);">
+      <h3>Analyse de capteurs</h3>
+      <p>Etudier la précision d'un capteur d'accélération (accéléromètre), acquisition et traitement de données. Présentation de résultats graphiques.</p>
+      <img src="capteur_graphique.jpg" alt="Analyse de capteurs" style="width: 100%; border-radius: 8px; margin-top: 10px;">
+    </div>
+  </div>
+  </section>
+
+  <section id="cv">
+    <h2>Mon CV</h2>
+    <p>Consultez mon CV détaillé pour plus d'informations :</p>
+    <a class="cv-link" href="cv_abdou.pdf" download>Télécharger le CV (PDF)</a>
+  </section>
+
+  <section id="news">
+    <h2>Actualité</h2>
+    <p><strong>Actuellement :</strong> Je suis en recherche active d’une alternance en GEII pour la rentrée 2025. Motivé, adaptable et curieux, je souhaite mettre à profit mes compétences dans une entreprise qui valorise la technologie et l’humain.</p>
+    <div class="quote">"Ma force est ma détermination à apprendre, à évoluer et à m'engager avec sérieux dans chaque projet que j'entreprends."</div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p><strong>Email :</strong> <a href="mailto:mbayeabdou206@gmail.com">mbayeabdou206@gmail.com</a></p>
+    <p><strong>Téléphone :</strong> +33 780 87 60 76</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Abdou Mbaye. Tous droits réservés.</p>
+  </footer>
+</body>
+</html>
